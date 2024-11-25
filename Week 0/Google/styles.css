@@ -1,0 +1,62 @@
+h1 {
+    color: white;
+    font: bold 570% Product Sans;
+    text-align: center;
+    padding-top: 1%;
+}
+
+a {
+    color: white;
+    font-family: 'Product Sans', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:hover {
+    font: bold;
+}
+
+body {
+    background-color: rgb(60, 60, 60);
+    font-family: 'Product Sans', sans-serif;
+    color: white;
+    
+}
+
+.nav {
+    padding: 1%;
+    text-align: right;
+}
+
+form {
+    text-align: center;
+}
+
+.searchbar {
+    border-radius: 25px;
+    width: 700px;
+    height: 45px;
+}
+
+.advanced {
+    text-align: left;
+    border-radius: 25px;
+    padding: 1%;
+}
+
+.advbutton {
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+}
+
+.search-field input[type="submit"] {
+    flex: 1;
+}
+
+.schbtn {
+    border-radius: 25px;
+}
