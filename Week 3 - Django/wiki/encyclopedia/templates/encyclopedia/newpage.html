@@ -1,0 +1,20 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    New Wiki Entry
+{% endblock %}
+
+{% block body %}
+    <form action="{% url 'new' %}" method="POST">
+        {% csrf_token %}
+        <input type="text" name="title" placeholder="New title">
+        </input>
+
+        <button type="submit">Save</button>
+
+        </br>
+        </br>
+        <textarea placeholder="Please use MD notation" type="text" name="content" ></textarea>
+    </form>
+
+{% endblock %}
