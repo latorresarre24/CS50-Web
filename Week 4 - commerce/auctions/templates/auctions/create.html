@@ -19,7 +19,7 @@
         </div>
         <div class="form-group">
             <label for="price" class="form-label">Price</label>
-            <input type="number" class="form-control" id="price" placeholder="Price" name="price">
+            <input type="number" min="0" class="form-control" id="price" placeholder="Price" name="price">
         </div>
         <div class="form-group">
             <label for="category">Choose a Category:</label>
@@ -30,4 +30,5 @@
             </select>
         </div>  
         <button type="submit" class="btn btn-primary">Create new listing</button>
+    </form>
 {% endblock %}
